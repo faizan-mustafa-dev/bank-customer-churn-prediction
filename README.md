@@ -125,7 +125,7 @@ Bank-Customer-Churn-Prediction/
 ├── README.md
 └── requirements.txt
 
----
+```
 
 ## 🚀 How to Run This Project
 
