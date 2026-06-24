@@ -98,36 +98,32 @@ reports/model_comparison.csv
 
 ## 📁 Project Structure
 
+```text
 Bank-Customer-Churn-Prediction/
-│
 ├── data/
-│ ├── raw/
-│ └── processed/
-│
+│   ├── raw/
+│   └── processed/
 ├── notebooks/
-│ ├── 01_EDA.ipynb
-│ ├── 02_Data_Preprocessing.ipynb
-│ ├── 03_Customer_Segmentation.ipynb
-│ ├── 04_Random_Forest_Model.ipynb
-│ ├── 05_ANN_Model.ipynb
-│ ├── 06_Model_Comparison.ipynb
-│
+│   ├── 01_EDA.ipynb
+│   ├── 02_Data_Preprocessing.ipynb
+│   ├── 03_Customer_Segmentation.ipynb
+│   ├── 04_Random_Forest_Model.ipynb
+│   ├── 05_ANN_Model.ipynb
+│   └── 06_Model_Comparison.ipynb
 ├── models/
-│ ├── random_forest.pkl
-│ └── ann_model.h5
-│
+│   ├── random_forest.pkl
+│   └── ann_model.h5
 ├── reports/
-│ ├── churn_distribution.png
-│ ├── pca_clusters.png
-│ ├── random_forest_confusion_matrix.png
-│ ├── ann_confusion_matrix.png
-│ ├── random_forest_metrics.csv
-│ ├── ann_metrics.csv
-│ └── model_comparison.csv
-│
-├── requirements.txt
+│   ├── churn_distribution.png
+│   ├── pca_clusters.png
+│   ├── random_forest_confusion_matrix.png
+│   ├── ann_confusion_matrix.png
+│   ├── random_forest_metrics.csv
+│   ├── ann_metrics.csv
+│   └── model_comparison.csv
 ├── .gitignore
-└── README.md
+├── README.md
+└── requirements.txt
 
 ---
 
